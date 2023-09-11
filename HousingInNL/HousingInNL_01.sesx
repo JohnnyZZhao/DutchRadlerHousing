@@ -361,7 +361,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0">
@@ -797,7 +797,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0">
@@ -2164,7 +2164,7 @@
         <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="587581" fileID="1" hue="-1" id="1" lockedInTime="false" looped="false" name="ZOOM0004_Tr3" offline="false" select="false" sourceInPoint="566424" sourceOutPoint="587581" startPoint="566424" zOrder="750">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
-            <parameter index="1" name="static gain" parameterValue="0.5011872"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
@@ -2248,7 +2248,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2288,7 +2288,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2448,7 +2448,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2488,7 +2488,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2588,7 +2588,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2708,7 +2708,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2748,7 +2748,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -2824,7 +2824,7 @@
         <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="14050486" fileID="1" hue="-1" id="34" lockedInTime="false" looped="false" name="ZOOM0004_Tr3" offline="false" select="false" sourceInPoint="15668341" sourceOutPoint="15674122" startPoint="14044705" zOrder="36470">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
-            <parameter index="1" name="static gain" parameterValue="0.5011872"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
@@ -2988,7 +2988,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -3068,7 +3068,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -3108,7 +3108,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -3228,7 +3228,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -3308,7 +3308,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -3468,7 +3468,7 @@
           </component>
           <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
             <parameter index="0" parameterValue="0"/>
-            <parameter index="1" name="mute" parameterValue="1"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
           </component>
           <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
             <parameter index="0" name="Pan" parameterValue="0"/>
@@ -4742,10 +4742,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2014.2 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2023-09-03T17:50:53+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-09-11T19:44:40+02:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-09-11T19:44:40+02:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:fda4b156-8af6-1346-a69a-17ce13d18ae3</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:7b05000d-3ca5-d643-8c67-7ea951fefed8</xmpMM:DocumentID>
+         <xmp:MetadataDate>2023-09-11T20:53:38+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-09-11T20:53:38+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:32ac4785-56bd-0045-ab01-c9662a779a2a</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:aca837f8-eed6-df40-9c54-cf2df555c9cb</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:a31c7cd3-baf6-0846-bbae-e5102075bdec</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -6184,11 +6184,39 @@
                   <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aeba0452-24d2-e345-a748-78fb1e150234</stEvt:instanceID>
+                  <stEvt:when>2023-09-11T20:53:32+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:aca837f8-eed6-df40-9c54-cf2df555c9cb</stEvt:instanceID>
+                  <stEvt:when>2023-09-11T20:53:32+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5a96f199-7823-0140-a2ee-4cc2f5e46e15</stEvt:instanceID>
+                  <stEvt:when>2023-09-11T20:53:38+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:32ac4785-56bd-0045-ab01-c9662a779a2a</stEvt:instanceID>
+                  <stEvt:when>2023-09-11T20:53:38+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:cf1bdd43-10d6-374b-b112-fbd1c278cccb</stRef:instanceID>
-            <stRef:documentID>xmp.did:4710e645-6957-294f-a3f6-d1e289a48d65</stRef:documentID>
+            <stRef:instanceID>xmp.iid:aeba0452-24d2-e345-a748-78fb1e150234</stRef:instanceID>
+            <stRef:documentID>xmp.did:7b05000d-3ca5-d643-8c67-7ea951fefed8</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:a31c7cd3-baf6-0846-bbae-e5102075bdec</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -6461,8 +6489,8 @@
   </session>
 
   <files>
-    <file absolutePath="C:\Users\jianf\Desktop\ZOOM0004\ZOOM0004_Tr1.WAV" id="0" mediaHandler="AmioWav" relativePath="../../../Desktop/ZOOM0004/ZOOM0004_Tr1.WAV"/>
-    <file absolutePath="C:\Users\jianf\Desktop\ZOOM0004\ZOOM0004_Tr3.WAV" id="1" mediaHandler="AmioWav" relativePath="../../../Desktop/ZOOM0004/ZOOM0004_Tr3.WAV"/>
+    <file absolutePath="C:\Users\zzhao\Music\DutchRadler\Housing in Netherlands\DutchRadlerHousing\ZOOM0004\ZOOM0004_Tr1.WAV" id="0" mediaHandler="AmioWav" relativePath="../ZOOM0004/ZOOM0004_Tr1.WAV"/>
+    <file absolutePath="C:\Users\zzhao\Music\DutchRadler\Housing in Netherlands\DutchRadlerHousing\ZOOM0004\ZOOM0004_Tr3.WAV" id="1" mediaHandler="AmioWav" relativePath="../ZOOM0004/ZOOM0004_Tr3.WAV"/>
   </files>
 
   <audioDevice inputID="0DE0302B-587D-4CA7-8239-4D9AEEBDA843" outputID="D0F89FB9-A27C-4E8C-B76E-E9C2513138DA">
