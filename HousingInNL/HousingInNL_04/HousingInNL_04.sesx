@@ -5,7 +5,7 @@
   <session appBuild="7.2.0.52" appVersion="7.2" audioChannelType="stereo" bitDepth="32" duration="46593507" sampleRate="48000">
     <name>HousingInNL_04.sesx</name>
     <tracks>
-      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="true" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10001" index="1" select="false" visible="true">
         <trackParameters trackHeight="134" trackHue="-1" trackMinimized="false">
           <name>Track 1</name>
         </trackParameters>
@@ -390,7 +390,7 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="43937942" fileID="0" hue="-1" id="9" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="true" sourceInPoint="15256790" sourceOutPoint="45076672" startPoint="14118060" zOrder="51">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="24541967" fileID="0" hue="-1" id="9" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="15256790" sourceOutPoint="25680697" startPoint="14118060" zOrder="53">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1.4125375"/>
@@ -407,7 +407,179 @@
             </parameter>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="29819882" shape="0" startPoint="29819882" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="10423907" shape="0" startPoint="10423907" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="26642616" fileID="0" hue="-1" id="10" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="26065868" sourceOutPoint="28166517" startPoint="24541967" zOrder="57">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="2100649" shape="0" startPoint="2100649" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="29741003" fileID="0" hue="-1" id="11" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="28272506" sourceOutPoint="31370893" startPoint="26642616" zOrder="61">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="3098387" shape="0" startPoint="3098387" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="30653820" fileID="0" hue="-1" id="12" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="31418479" sourceOutPoint="32331296" startPoint="29741003" zOrder="66">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="912817" shape="0" startPoint="912817" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="40495438" fileID="0" hue="-1" id="13" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="32563171" sourceOutPoint="42404789" startPoint="30653820" zOrder="71">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+                <parameterKeyframe sampleOffset="32563258" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="9841618" shape="0" startPoint="9841618" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="41050885" fileID="0" hue="-1" id="14" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="42450129" sourceOutPoint="43005576" startPoint="40495438" zOrder="76">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+                <parameterKeyframe sampleOffset="32563258" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="555447" shape="0" startPoint="555447" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="41552435" fileID="0" hue="-1" id="15" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="43305221" sourceOutPoint="43806771" startPoint="41050885" zOrder="79">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+                <parameterKeyframe sampleOffset="32563258" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="501550" shape="0" startPoint="501550" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="42553739" fileID="0" hue="-1" id="16" lockedInTime="false" looped="false" name="ZOOM0007_Tr1" offline="false" select="false" sourceInPoint="44022826" sourceOutPoint="45024130" startPoint="41552435" zOrder="83">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0">
+              <parameterKeyframes enableSplines="false">
+                <parameterKeyframe sampleOffset="5986649" select="false" type="linear" value="0.5"/>
+                <parameterKeyframe sampleOffset="32563258" select="false" type="linear" value="0.5"/>
+              </parameterKeyframes>
+            </parameter>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1001304" shape="0" startPoint="1001304" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <channelMap>
@@ -415,7 +587,7 @@
           </channelMap>
         </audioClip>
       </audioTrack>
-      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="false" visible="true">
+      <audioTrack automationLaneOpenState="false" id="10002" index="2" select="true" visible="true">
         <trackParameters trackHeight="134" trackHue="191.85686588287354" trackMinimized="false">
           <name>Track 2</name>
         </trackParameters>
@@ -776,7 +948,7 @@
             <channel index="0" sourceIndex="0"/>
           </channelMap>
         </audioClip>
-        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="43937942" fileID="1" hue="-1" id="9" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="true" sourceInPoint="15256790" sourceOutPoint="45076672" startPoint="14118060" zOrder="51">
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="24541967" fileID="1" hue="-1" id="9" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="15256790" sourceOutPoint="25680697" startPoint="14118060" zOrder="51">
           <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
             <parameter index="0" name="volume" parameterValue="1"/>
             <parameter index="1" name="static gain" parameterValue="1.4125375"/>
@@ -789,7 +961,147 @@
             <parameter index="0" name="Pan" parameterValue="0"/>
           </component>
           <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
-          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="29819882" shape="0" startPoint="29819882" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="10423907" shape="0" startPoint="10423907" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="26642616" fileID="1" hue="-1" id="10" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="26065868" sourceOutPoint="28166517" startPoint="24541967" zOrder="56">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="2100649" shape="0" startPoint="2100649" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="29741003" fileID="1" hue="-1" id="11" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="28272506" sourceOutPoint="31370893" startPoint="26642616" zOrder="60">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="3098387" shape="0" startPoint="3098387" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="30653820" fileID="1" hue="-1" id="12" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="31418479" sourceOutPoint="32331296" startPoint="29741003" zOrder="64">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="912817" shape="0" startPoint="912817" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="40495438" fileID="1" hue="-1" id="13" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="32563171" sourceOutPoint="42404789" startPoint="30653820" zOrder="70">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="9841618" shape="0" startPoint="9841618" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="41050885" fileID="1" hue="-1" id="14" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="42450129" sourceOutPoint="43005576" startPoint="40495438" zOrder="74">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="555447" shape="0" startPoint="555447" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="41552435" fileID="1" hue="-1" id="15" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="43305221" sourceOutPoint="43806771" startPoint="41050885" zOrder="78">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="501550" shape="0" startPoint="501550" type="cosine"/>
+          <editParameter parameterIndex="0" slotIndex="4294967281"/>
+          <editParameter parameterIndex="0" slotIndex="4294967280"/>
+          <channelMap>
+            <channel index="0" sourceIndex="0"/>
+          </channelMap>
+        </audioClip>
+        <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="42553739" fileID="1" hue="-1" id="16" lockedInTime="false" looped="false" name="ZOOM0007_Tr3" offline="false" select="false" sourceInPoint="44022826" sourceOutPoint="45024130" startPoint="41552435" zOrder="82">
+          <component componentID="Audition.Fader" id="clipGain" name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1.4125375"/>
+          </component>
+          <component componentID="Audition.Mute" id="clipMute" name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+          </component>
+          <component componentID="Audition.StereoPanner" id="clipPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+          </component>
+          <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="0" startPoint="0" type="cosine"/>
+          <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1001304" shape="0" startPoint="1001304" type="cosine"/>
           <editParameter parameterIndex="0" slotIndex="4294967281"/>
           <editParameter parameterIndex="0" slotIndex="4294967280"/>
           <channelMap>
@@ -1594,9 +1906,9 @@
         <editParameter parameterIndex="0" slotIndex="4294967280"/>
       </masterTrack>
     </tracks>
-    <sessionState ctiPosition="23954849" smpteStart="0">
-      <selectionState selectionDuration="0" selectionStart="23954849"/>
-      <viewState horizontalViewDuration="1254977" horizontalViewStart="22986907" trackControlsWidth="224" verticalScrollOffset="0"/>
+    <sessionState ctiPosition="42570675" smpteStart="0">
+      <selectionState selectionDuration="0" selectionStart="42570675"/>
+      <viewState horizontalViewDuration="646473" horizontalViewStart="41992377" trackControlsWidth="224" verticalScrollOffset="0"/>
       <timeFormatState beatsPerBar="4" beatsPerMinute="120" customFrameRate="12" linkToDefaultTimeSettings="true" noteLength="4" subdivisions="16" timeCodeDropFrame="false" timeCodeFrameRate="30" timeCodeNTSC="false" timeFormat="timeFormatDecimal"/>
       <mixingOptionState defaultPanModeLogarithmic="false" panPower="-3"/>
     </sessionState>
@@ -1612,10 +1924,10 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2014.2 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2023-09-11T22:44:03+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-09-12T23:00:31+02:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-09-12T23:00:31+02:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:ccbf9e3e-79b4-df46-a85a-fa0e70d58925</xmpMM:InstanceID>
-         <xmpMM:DocumentID>xmp.did:3235a66a-75d4-3444-8649-40b1c9e08ca9</xmpMM:DocumentID>
+         <xmp:MetadataDate>2023-09-13T19:39:04+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-09-13T19:39:04+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:33888a77-4bfd-1b47-aa73-f719cacf331f</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:c0ca144b-1389-724d-963c-42b4ed8cfe8d</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:b329b4f4-941e-1d42-8510-66f5a7338157</xmpMM:OriginalDocumentID>
          <xmpMM:History>
             <rdf:Seq>
@@ -1990,11 +2302,165 @@
                   <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f31e501d-133d-4645-9b80-28a346e98c4c</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:25:01+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:c0ca144b-1389-724d-963c-42b4ed8cfe8d</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:25:01+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:ad1a8ad9-48ca-4340-9daa-d879a6ac38f8</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:26:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:5c9290b7-a6a6-a649-b735-42eea3ddfbf9</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:26:12+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:4fc352ef-b79a-2442-85f1-6788e7982ad1</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:27:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:b96774d6-071d-a644-a586-e7ebf776b861</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:27:46+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:f403cea2-ac1b-af44-a7be-b53f7eecdbaa</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:29:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:e811de63-3ab7-d94a-9a7c-92469a509c05</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:29:13+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:29ab7c92-9b51-2c48-96e9-8e3a669d3bad</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:30:57+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:357e00f5-1739-bd40-a93d-05180fe49a1d</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:30:57+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:55716502-2615-0a4b-a353-5049c81aa2eb</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:31:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3bd74362-0960-9c42-9f07-f11213e05c4b</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:31:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2834ca41-f362-e647-8f01-1c3da01d5031</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:33:17+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:756891dc-7fd1-fa4f-8d58-cb0b96f51dd9</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:33:17+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:dff06b8f-815b-6e4f-b55c-3bc39e2a2850</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:37:44+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:8c863dd7-aee1-a349-b0ae-c68d31132c19</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:37:44+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:d26e504e-4e0e-e24a-bdf9-b044839578b3</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:38:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a0a8f515-899f-db41-bde2-057422dfa0de</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:38:34+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0b39fd49-290a-e841-9e50-427c4e942985</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:39:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:88478de2-48bb-eb47-b7c6-d62e6d07c33b</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:39:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:2dd11cac-ad1a-6242-8f66-f694b4083965</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:39:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:33888a77-4bfd-1b47-aa73-f719cacf331f</stEvt:instanceID>
+                  <stEvt:when>2023-09-13T19:39:04+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
             </rdf:Seq>
          </xmpMM:History>
          <xmpMM:DerivedFrom rdf:parseType="Resource">
-            <stRef:instanceID>xmp.iid:67c57c57-551a-ae44-a364-36725ec5663d</stRef:instanceID>
-            <stRef:documentID>xmp.did:0fb94b82-d8c5-0a4a-8bde-49648aa04c8f</stRef:documentID>
+            <stRef:instanceID>xmp.iid:f31e501d-133d-4645-9b80-28a346e98c4c</stRef:instanceID>
+            <stRef:documentID>xmp.did:3235a66a-75d4-3444-8649-40b1c9e08ca9</stRef:documentID>
             <stRef:originalDocumentID>xmp.did:b329b4f4-941e-1d42-8510-66f5a7338157</stRef:originalDocumentID>
          </xmpMM:DerivedFrom>
          <dc:format>application/xml</dc:format>
@@ -2004,22 +2470,6 @@
                   <xmpDM:trackName>CuePoint Markers</xmpDM:trackName>
                   <xmpDM:trackType>Cue</xmpDM:trackType>
                   <xmpDM:frameRate>f48000</xmpDM:frameRate>
-                  <xmpDM:markers>
-                     <rdf:Seq>
-                        <rdf:li rdf:parseType="Resource">
-                           <xmpDM:startTime>1719950</xmpDM:startTime>
-                           <xmpDM:name>Marker 01</xmpDM:name>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <xmpDM:startTime>11020605</xmpDM:startTime>
-                           <xmpDM:name>Marker 02</xmpDM:name>
-                        </rdf:li>
-                        <rdf:li rdf:parseType="Resource">
-                           <xmpDM:startTime>11028811</xmpDM:startTime>
-                           <xmpDM:name>Marker 03</xmpDM:name>
-                        </rdf:li>
-                     </rdf:Seq>
-                  </xmpDM:markers>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
                   <xmpDM:trackName>CD Track Markers</xmpDM:trackName>
