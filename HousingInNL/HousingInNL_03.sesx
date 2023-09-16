@@ -3984,9 +3984,9 @@
             xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/">
          <xmp:CreatorTool>Adobe Audition CC 2014.2 (Windows)</xmp:CreatorTool>
          <xmp:CreateDate>2023-09-03T18:22:54+02:00</xmp:CreateDate>
-         <xmp:MetadataDate>2023-09-16T13:08:44+02:00</xmp:MetadataDate>
-         <xmp:ModifyDate>2023-09-16T13:08:44+02:00</xmp:ModifyDate>
-         <xmpMM:InstanceID>xmp.iid:2bd71b5f-8371-0645-bee6-2c2fac3b4f2d</xmpMM:InstanceID>
+         <xmp:MetadataDate>2023-09-16T15:03:37+02:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2023-09-16T15:03:37+02:00</xmp:ModifyDate>
+         <xmpMM:InstanceID>xmp.iid:54180417-e4d7-5f4b-8f2f-7255af59f68e</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:467eb2a4-09e8-6141-b820-f6cb1fddc485</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>xmp.did:c060bbf6-5a3c-1e49-8b1e-c8ed20618e51</xmpMM:OriginalDocumentID>
          <xmpMM:History>
@@ -4947,6 +4947,20 @@
                   <stEvt:action>saved</stEvt:action>
                   <stEvt:instanceID>xmp.iid:2bd71b5f-8371-0645-bee6-2c2fac3b4f2d</stEvt:instanceID>
                   <stEvt:when>2023-09-16T13:08:44+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:3dfa7e32-7522-4f4d-9056-8ec019afa7d0</stEvt:instanceID>
+                  <stEvt:when>2023-09-16T15:03:37+02:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/metadata</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:54180417-e4d7-5f4b-8f2f-7255af59f68e</stEvt:instanceID>
+                  <stEvt:when>2023-09-16T15:03:37+02:00</stEvt:when>
                   <stEvt:softwareAgent>Adobe Audition CC 2014.2 (Windows)</stEvt:softwareAgent>
                   <stEvt:changed>/</stEvt:changed>
                </rdf:li>
